@@ -5,18 +5,36 @@ Standard WordPress layout for required+ projects.
 
 ### Setup Instructions.
 
-* Create an empty directory for your project. In terminal, navigate to this directory.
-* Clone the repository `git clone --recursive git://github.com/neverything/required-base.git .`
-* Remove the hm-base remote. `git remote rm origin`
-* Add the remote for your new project `git remote add origin [url]`
-* Push to the new remote `git push origin master`
+1. Create an empty directory for your project and go there:
+```
+mkdir <PROJET_NAME>
+cd <PROJECT_NAME>
+```
+2. Clone the repository incl. the WordPress submodule when in the `<PROJECT_NAME>` directory
+```
+git clone --recursive git://github.com/neverything/required-base.git .
+```
+3. Remove the required-base remote.
+```
+git remote rm origin
+```
+4. Add the remote for your new project
+```
+git remote add origin <REPOSITORY_URL>
+```
+5. Push to the new remote
+```
+git push origin master
+```
+6. Add your database settings
+```
+# Local site:
+mv wp-config-sample.php wp-config-local.php
+# Now add your local database settings there
 
-* Add your database settings.
-
-	* Local site: `mv wp-config-sample.php wp-config-local.php`, then add your local database settings.
-	* Live site: Production database settings should be added to `wp-config.php`.
-
-Done!
+# Live site: Production database settings should be added to wp-config.php.
+```
+Boom, done!
 
 ## Contribution guidelines ##
 
