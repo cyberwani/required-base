@@ -94,18 +94,9 @@ define( 'WPLANG', '' );
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-if ( defined( 'HM_DEV' ) && HM_DEV ) {
-	
-	if ( ! defined( 'WP_DEBUG' ) )
-		define( 'WP_DEBUG', true );
-
-	if ( ! defined( 'SAVEQUERIES' ) )
-		define( 'SAVEQUERIES', true );
-
-} else {
-
+if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
-
+	define( 'SAVEQUERIES', false );
 }
 
 // Define Site URL: WordPress in a subdirectory.
@@ -120,12 +111,8 @@ if ( ! defined( 'WP_HOME' ) )
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', WP_HOME . '/content' );
 
-// Set path to MU Plugins.
-define( 'WPMU_PLUGIN_DIR', dirname( __FILE__ ) . '/content/plugins-mu' );
-define( 'WPMU_PLUGIN_URL', WP_HOME . '/content/plugins-mu' );
-
 // Set default theme.
-define( 'WP_DEFAULT_THEME', 'twentytwelve' );
+define( 'WP_DEFAULT_THEME', 'twentythirteen' ); // Define the time you wish to use
 
 // Prevent editing of files through the admin.
 define( 'DISALLOW_FILE_EDIT', true );

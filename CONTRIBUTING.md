@@ -4,8 +4,8 @@
 
 * Develop on a feature branch and send a pull request for review.
 * Assign the pull request to one of the following contacts:
-	* Primary: Matthew Haines-Young [@mattheu](https://github.com/mattheu)
-	* Secondary: 
+	* Primary: Silvan Hagen [@neverything](https://github.com/neverything)
+	* Secondary: Stefan Pasch [@hubeRsen](https://github.com/hubeRsen)
 
 ## Coding Standards ##
 
