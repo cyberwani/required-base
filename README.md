@@ -12,7 +12,7 @@ cd <PROJECT_NAME>
 ```
 2 Clone the repository incl. the WordPress submodule when in the `<PROJECT_NAME>` directory
 ```
-git clone --recursive git://github.com/neverything/required-base.git .
+git clone --recursive git://github.com/wearerequired/required-base.git .
 ```
 3 Remove the required-base remote.
 ```
@@ -38,4 +38,4 @@ Boom, done!
 
 ## Contribution guidelines ##
 
-see https://github.com/neverything/required-base/blob/master/CONTRIBUTING.md
+see https://github.com/wearerequired/required-base/blob/master/CONTRIBUTING.md
