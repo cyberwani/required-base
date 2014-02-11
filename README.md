@@ -20,4 +20,4 @@ Done!
 
 ## Contribution guidelines ##
 
-see https://github.com/humanmade/hm-base/blob/master/CONTRIBUTING.md
+see https://github.com/neverything/required-base/blob/master/CONTRIBUTING.md
